@@ -1,0 +1,326 @@
+
+
+html {
+	height: 100%;
+}
+header {
+	font-size: 19px;
+	font-family: Georgia;
+	height: 80px;
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+	padding-left: 190px;
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+
+ul {
+	font-family: 'Arial';
+	font-size: 18px;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	margin-right: 180px;
+	background-color: #ffffff;
+	bottom: 50px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: inline-block;
+	color: #777777;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: orange;
+}
+
+#contact {
+	border-left: 1px solid #777777;
+	height: 45px;
+}
+
+#port {
+	border-left: 1px solid #777777;
+	height: 45px;
+}
+
+#head {
+	position: relative;
+	top: -99px;
+	height: 81px;
+	width: 350px;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+body {
+	margin-top: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue";
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#content {
+	width: 960px;
+	font-size: 24px;
+    font-family: Georgia;
+    color: #4aaaa5;
+    padding-left: 45px;
+    flex: 1 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    width: 650px;
+    margin-top: 50px;
+    border: 5px solid #dddddd;
+    margin-left: 15%;
+}
+
+#Portfolio {
+	width: 555px;
+	margin-left: 45px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+	width: 230px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+h3 {
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+	bottom: 16px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#social {
+	float: right;
+	position: absolute;
+	height: 200px;
+	width: 270px;
+	margin-top: 50px;
+	background-color: #ffffff;
+	border: 5px solid #dddddd;
+	right: 180px;
+	clear: both;
+}
+
+}
+#connect {
+	font-family: Georgia;
+	text-decoration-line: underline;
+}
+
+#linkedin {
+	float: left;
+	margin-left: 30px;
+	padding: 1px solid black;
+}
+
+#stackoverflow {
+	float: left;
+	margin-left: 30px;
+	padding: 1px solid black;
+} 
+
+#github {
+	float: right;
+	margin-right: 30px;
+	padding: 1px solid black;
+}
+
+#hangmanPic {
+    float: left;
+    left: 45px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border: 2px solid #f6f6f6;
+}
+
+#profilePic {
+	float: left;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border: 2px solid #f6f6f6;
+    margin-right: 15px;
+    margin-left: 45px;
+}
+
+#bio {
+	margin-right: 10px;
+	margin-left: 45px;
+	font-family: 'Helvetica Neue';
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#hangman {
+	float: left;
+    position: absolute;
+    top: 500px;
+    left: 241px;
+    z-index: 10;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#zelda {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 95px;
+    border: 2px solid #f6f6f6;
+}
+
+#RPG {
+	float: left;
+    position: absolute;
+    top: 500px;
+    left: 545px;
+    z-index: 10;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#homer {
+    float: left;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-top: 15px;
+    left: 45px;
+    border: 2px solid #f6f6f6;
+}
+
+#trivia {
+	float: left;
+    position: absolute;
+    bottom: -130px;
+    left: 241px;
+    z-index: 10;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#ipad {
+	float: left;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-top: 15px;
+    left: 95px;
+    border: 2px solid #f6f6f6;
+}
+
+#rutgers {
+	float: left;
+    position: absolute;
+    bottom: -130px;
+    left: 545px;
+    z-index: 10;
+    height: 40px;
+    width: 250px;;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+#rock_paper_scissors {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    left: 45px;
+    border: 2px solid #f6f6f6;
+}
+
+#rock {
+	float: left;
+    position: absolute;
+    bottom: -405px;
+    left: 241px;
+    z-index: 10;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input[type=text], select, textarea {
+	width: 95%;
+	padding: 12px;
+	border: 1px solid #4aaaa5;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-left: 25px;
+	padding-top: 0px;
+}
+
+.footer {
+	text-align: center;
+	background-color: grey;
+	border-top: 2px solid #4aaaa5;
+	margin-top: 10px;
+	font-family: 'Helvetica Neue';
+	color: #ffffff;
+}
